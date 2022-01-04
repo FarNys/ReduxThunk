@@ -1,10 +1,10 @@
-import React from "react";
-import TeamsPage from "./pages/TeamsPage";
+import React, { useEffect, useState } from "react";
+import FavSongs from "./components/FavSongs";
 
 const App = () => {
   return (
     <div className="app_container">
-      <TeamsPage />
+      <FavSongs />
     </div>
   );
 };

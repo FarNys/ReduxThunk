@@ -5,8 +5,8 @@ import "./Index.scss";
 import thunk from "redux-thunk";
 import { Provider } from "react-redux";
 import { applyMiddleware, combineReducers, compose, createStore } from "redux";
-import teamReducer from "./reducers/teamReducer";
-const allReducers = combineReducers({ team: teamReducer });
+import songsReducer from "./reducers/songsReducer";
+const allReducers = combineReducers({ songsReducer });
 const store = createStore(allReducers, compose(applyMiddleware(thunk)));
 
 ReactDOM.render(
