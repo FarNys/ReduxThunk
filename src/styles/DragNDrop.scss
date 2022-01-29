@@ -1,0 +1,47 @@
+.dragNdrop_container {
+  margin-top: 100px;
+  width: 100%;
+  background-color: antiquewhite;
+}
+.first_list {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid black;
+  > li {
+    list-style: none;
+    text-align: center;
+    border: 2px solid blue;
+    // max-width: 100px;
+    padding: 10px 0;
+    &:hover {
+      border: 2px solid red;
+    }
+  }
+}
+.second_list {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+
+  padding: 1rem;
+
+  > li {
+    list-style: none;
+    text-align: center;
+    border: 2px solid blue;
+
+    padding: 10px 0;
+    &:hover {
+      border: 2px solid red;
+    }
+  }
+}
+.two_columns {
+}
