@@ -5,3 +5,13 @@
   text-decoration: none;
   color: black;
 }
+$colors: (
+  primary: #cccccc,
+  secondary: #550000,
+);
+
+:root {
+  @each $var, $value in $colors {
+    --color_#{$var}: #{$value};
+  }
+}
